@@ -166,8 +166,8 @@ class DisassemblyMode:
             self.mode_off = False
             self.store_state()
             self.set_value("stop-disassembly-display","always")
-            self.set_value("stop-disassembly-count", "8")
-            self.set_value("stop-line-count-before", "0")
+            self.set_value("stop-disassembly-count", "16")
+            self.set_value("stop-line-count-before", "3")
             self.set_value("stop-line-count-after", "0")
             result.AppendMessage("Disassembly mode on.")
         else:
