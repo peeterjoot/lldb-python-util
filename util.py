@@ -17,7 +17,6 @@ import optparse
 import shlex
 import sys
 import os
-from apis.bswapreloc import *
 
 
 class util:
